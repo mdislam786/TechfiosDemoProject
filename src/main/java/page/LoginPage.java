@@ -13,11 +13,11 @@ public class LoginPage {
 		}
 		
 		// Element Library
-		@FindBy(how = How.XPATH, using = "//input[@id='username']")
+		@FindBy(how = How.XPATH, using = "//input[@id='user_name']")
 		WebElement UserName;
 		@FindBy(how = How.XPATH, using = "//input[@id='password']")
 		WebElement Password;
-		@FindBy(how = How.XPATH, using = "//button[@name='login']")
+		@FindBy(how = How.XPATH, using = "//button[@id='login_submit']")
 		WebElement SignInButton;
 		
 		// Methods to interact with the elements
